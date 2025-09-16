@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+       body{
+          font-family: "Varela Round", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!--Header part of the webpage is written inside header tag.It provides semantic meaning.-->
+    <header>
+        <!--This is the main heading of the Webpage-->
+        <h1>File Path in HTML & BoilerPlate Code</h1>
+        <!--All the navigation links are provided in the nav tag-->
+         <nav>
+            <a href="./D1Introduction.html" target="_blank">Working of Internet</a> |
+            <a href="./Day1.html" target="_blank">What is HTML?</a> |
+            <a href="./Day2.html" target="_blank">Lists & Tables</a> |
+            <a href="./Day4.html" target="_blank">HTML Forms</a> |
+            <a href="./Day5.html" target="_blank">Media Tag</a> 
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <!--Using Table tag to display image and the content in single row-->
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="./images/file.png" alt="FilePath Image" height="350px">
+                    </td>
+
+                    <td>
+                        <h2>What is File Path ?</h2>
+                        <p>A <b>file path</b> is the unique address for a file or folder within a computer's file system, specifying its exact location by listing the sequence of directories leading to it.</p>
+                        <p>File paths are essential for accessing, organizing, and manipulating files and folders, with two main types: <br>
+                            <b> • Absolute paths : </b>which start from the file system's root directory (e.g., C:\Users\Documents\file.txt in Windows) <br>
+                            <b> • Relative paths :</b> which specify a location in relation to the current working directory (e.g., ../images/picture.jpg).  </p>
+                        <h3>Why we can't provide Absolute Path of the File in HTML Doc ?</h3>
+                        <p>Browsers implement security measures to prevent web pages from directly accessing local file systems for security and privacy reasons. If an HTML file could arbitrarily access any file on your computer via an absolute path, it would pose a significant security risk.</p>    
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Using table tag to print the Boilerplate Code and its explanation in the same row:)-->
+        <table cellpadding="30px">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 20px;">
+                         <pre>
+                            <code style="font-size:19px ;">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+     &lt;meta charset="UTF-8"&gt;
+     &lt;meta name="viewport" 
+     content="width=device-width,
+      initial-scale=1.0"&gt;
+     &lt;title&gt;HTML Boilerplate&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!-- Your content goes here --&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+                            </code>
+                        </pre>
+                    </td>
+
+
+                    <td>
+                        <h2>What is BoilerPlate Code ?</h2>
+                        <p>An HTML boilerplate provides the basic structure and essential elements required for any HTML5 webpage. This foundational code ensures consistency and saves time during web development.</p>
+                        <h3>&lt;!DOCTYPE html&gt;:</h3>
+                        <p>
+                        This declaration informs the browser that the document is an HTML5 document.</p>
+                        <h3>&lt;html lang="en"&gt;:</h3>
+                        <p>This is the root element of the HTML page, and the lang="en" attribute specifies the language of the document as English, which is beneficial for accessibility and search engines.</p>
+                        <h3>&lt;head&gt;:</h3>
+                        <p>This section contains meta-information about the HTML document, which is not directly visible on the webpage but is used by browsers and search engines.</p>
+                        <ul>
+                            <li><h4>&lt;meta charset="UTF-8"&gt;:</h4>
+                             <p>
+                            Specifies the character encoding for the document, ensuring proper display of various characters.
+                            </p></li>
+                            <li>
+                                <h4>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;: </h4>
+                                <p> This meta tag is crucial for responsive web design, instructing the browser on how to control the page's dimensions and scaling for different devices.</p>
+                            </li>
+                            <li>
+                                <h4>&lt;title&gt;Document&lt;/title&gt;: </h4>
+                                <p>Sets the title that appears in the browser tab or window title bar.</p>
+                            </li>
+                 
+                        </ul>
+                        <h3>&lt;body&gt;:</h3>
+                        <p>This section contains all the visible content of the webpage, such as text, images, links, and other elements that users interact with.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+       <table cellpadding="30px">
+        <tbody>
+            <tr>
+                <td>
+                    <h2>UTF-8</h2>
+                    <p>UTF-8 (Unicode Transformation Format – 8-bit) is the most common character encoding for the World Wide Web and a standard for representing all Unicode characters. It is a variable-length encoding that uses one to four bytes to represent each character, with more frequently used characters (like ASCII) using fewer bytes to save space. UTF-8 is backward-compatible with ASCII and can represent characters from virtually all written languages and symbols, making it essential for modern digital communication. </p>
+
+                </td>
+
+
+                <td>
+                    <img src="./images/binary.png" alt="Image" height="250px">
+                </td>
+
+                <td>
+                    <h2>ASCII</h2>
+                    <p>ASCII, or American Standard Code for Information Interchange, is a character encoding standard that assigns numerical values to letters, numbers, and symbols to enable electronic communication between computers. It uses a 7-bit binary system to define 128 characters, including printable characters like digits and letters, and non-printable control characters for formatting. While the original standard is 7-bit, modern systems often store these in 8-bit bytes, and the foundational 128 ASCII characters serve as the basis for more extensive encoding systems like Unicode.  </p>
+
+                </td>
+            </tr>
+        </tbody>
+       </table>
+
+       <table cellpadding="30px">
+        <tbody>
+            <tr>
+                <td>
+                    <img src="./images/htmltags.png" alt="HTML Tags Image" height="300px">
+                </td>
+
+                <td>
+                    <h2>HTML Structural Tags :D</h2>
+                    <ul>
+                        <li>
+                            <h3>&lt;header&gt;</h3>
+                            <p>The <b> &lt;header&gt; </b>tag is a semantic HTML element that is used to define the introductory or navigational content of a webpage or a section.</p>
+                        </li>
+                        <li>
+                            <h3>&lt;main&gt;</h3>
+                            <p>It defines a document's main content, which should be unique. It excludes content like sidebars, navigation, logos, and copyright info, ensuring unique document-specific material within.</p>
+                        </li>
+                        <li>
+                            <h3>&lt;footer&gt;</h3>
+                            <p>The &lt;footer&gt; tag in HTML is used to define the footer section of an HTML document.
+
+                                The footer section typically contains information such as contact information, sitemap, back-to-top links, related documents, copyright, etc.
+                            The footer tag is a semantic tag included in HTML</p>
+                        </li>
+                        <li>
+                            <h3>&lt;div&gt;</h3>
+                            <p>The &lt;div&gt; tag, used in over 90% of web pages, divides content into sections and serves as a flexible container for text, images, and links.</p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+       </table>
+    </main>
+
+    <hr>
+    <!--This is the footer section of the Webpage-->
+    <footer>
+        <p>Copyright &copy; 2025 User | All rights reserved.</p>
+    </footer>
+</body>
+</html>

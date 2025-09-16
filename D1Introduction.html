@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&family=Varela+Round&display=swap" rel="stylesheet">
+<style>
+    body{
+         font-family: "Varela Round", sans-serif;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <!--This is the header of the page , it contains the heading and the navigation links-->
+
+        <h1>Working of Internet</h1>
+
+        <!--Navigation links to different web pages of the project-->
+        <nav>
+            <a href="./Day1.html" target="_blank">What is HTML?</a> |
+            <a href="./Day2.html" target="_blank">Lists & Tables</a> |
+            <a href="./Day3.html" target="_blank">File Path</a> |
+            <a href="./Day4.html" target="_blank">HTML Forms</a> |
+            <a href="./Day5.html" target="_blank">Media Tag</a> 
+        </nav>
+
+    </header> 
+    <hr>
+     <main>
+       
+        <!--Used table tag to display an image and a paragraph in a single row -->
+       <table>
+        <tbody>
+            <tr>
+                <td><img src="./images/Hackathon2.png" alt="Image" height="350px"></td>
+                <td>
+                    <h2>What is Internet ?</h2>
+                    <p><i><b>Internet</b></i> is a global communication system that links together thousands of individual networks. It allows exchange of information between two or more computers on a network.</p>
+                    <p>The Internet is a global network of interconnected computers and devices that allows users to access and share information and devices, allowing them to communicate and exchange data. It enables users to access a wide range of services, such as websites, emails, social media, online applications, and cloud storage.</p>
+                </td>
+            </tr>
+        </tbody>
+       </table>
+
+       
+      <h2>What is an IP Address?</h2>
+      <!--Unordered list is used items which does not require order . It is used to write things with a bulletin points-->
+      <ul>
+        <li>
+            <p>IP Address stands for Internet Protocol Address. Every computer or device connected to the Internet has a unique IP address, provided by Internet Service Providers (ISPs).</p>
+        </li>
+        <li>
+            <p> <p>An IP address is a set of four numbers like 192.154.3.29, where each number ranges from 0 to 255, making the full range from 0.0.0.0 to 255.255.255.255. It plays a key role in the flow of data over the Internet.</p>
+        </li>
+      </ul>
+      
+      <!--Used table tag to display the image and the content in the single row:)-->
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <h3>IPv4 :-)</h3>
+                    <p> It consists of four sets of numbers separated by dots. For example, 192.158.1.38. Each set of numbers can range from 0 to 255. This format can support over 4 billion unique addresses. Here's how the structure is broken down:</p>
+                     
+                    <!--Using unordered list tag to write the content in a form of list-->
+                    <ul>
+                        <li>
+                           <p><b>Four Octets:</b> Each octet represents eight bits, or a byte, and can take a value from 0 to 255. This range is derived from the possible combinations of eight bits (2^8 = 256 combinations).</p>
+                        </li>
+                        <li>
+                            <p>Example of IPv4 Address: 192.168.1.11</p>
+                            <!--Using nested listed to write the items of a list-->
+                            <ul>
+                                <li>192 is the first octet</li>
+                                <li>168 is the second octet</li>
+                                <li>1 is the third octet</li>
+                                <li>11 is the fourth octet</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <img src="./images/Ipv4.png" alt="Image" height="320px">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="./images/ipv6.png" alt="Image" height="320px">
+                </td>
+                <td>
+                    <h3>IPv6 :-)</h3>
+                    <p>IPv6 addresses were created to deal with the shortage of IPv4 addresses. They use 128 bits instead of 32, offering a vastly greater number of possible addresses. These addresses are expressed as eight groups of four hexadecimal digits, each group representing 16 bits. The groups are separated by colons.</p>
+                    <li><b>Example of IPv6 Address:</b> 2001:0db8:85a3:0000:0000:8a2e:0370:7334</li>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <h3>DNS Server :-)</h3>
+                    <p>A DNS server acts as the "phonebook for the internet," translating human-friendly domain names (like "google.com") into machine-readable IP addresses (like 172.217.160.142) so your device can find the correct website or service online. When you type a URL into your browser, a DNS query is sent to a DNS server, which then locates the corresponding IP address and sends it back, allowing your browser to connect to the server hosting the website. This process, known as DNS resolution,    essential for the internet to function, enabling you to access online content without needing to memorize complex IP addresses.  </p>
+
+                </td>
+                <td>
+                    <img src="./images/Dns.png" alt="Image" height="350px">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+     <!--Wrapped image in a div element and used align attribute to center the div , which in turn palces the image in the center of the HTML document-->
+    <div align="center">
+        <img src="./images/Journey.png" alt="Image" height="650px">
+    </div>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="./images/portNumber.png" alt="Image" height="450px">
+                </td>
+                <td>
+                    <h3>MAC Address :-)</h3>
+                    <p>A <b>MAC (Media Access Control) Address</b> is a unique, permanent serial number burned into every network-capable piece of hardware (your laptop's Wi-Fi card, your phone, your smart TV, the network port on your desktop).</p>
+                    <p>A MAC address is a <b>48-bit</b> number. To make it readable for humans, it's typically written as 12 hexadecimal digits number. </p>
+
+                    <h3>Port Number :-)</h3>
+                    <p>Port numbers are **numerical identifiers (0-65535) in computer networking that identify specific applications or services on a device**.They work with IP addresses to direct network traffic to the correct service on a machine, with common ports assigned to standard applications like HTTP (port 80) and HTTPS (port 443)</p>
+                    <ul>
+                       <li>A port number is a 16-bit unsigned integer.
+                          <ul>
+                            <li><b>Unsigned: </b>This means it cannot be negative. The values are all positive.</li>
+                          </ul>
+                       </li>
+                    </ul>   
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <h3>Local Area Network :-)</h3>
+                    <p>A Local Area Network (LAN) is a network that connects devices such as computers, printers, and IoT devices within a small geographical area like a home, office, or campus. </p>
+                    <p>A <b>Router</b> serves as the hub where the majority of LANs connect to the Internet. Home LANs often utilise a single router, but bigger LANs may also use network switches to transmit packets more effectively.</p>
+                    <li><i><b>Within Local Networks we only need MAC Address to transfer data.</b></i></li>
+                </td>
+                <td>
+                    <img src="./images/Hackathon1.png" alt="Image" height="450px">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+   </main>
+    <hr>
+   <!--This is the footer section of the Webpage-->
+    <footer>
+        <p>Copyright &copy; 2025 User | All rights reserved.</p>
+    </footer>
+</body>
+</html>

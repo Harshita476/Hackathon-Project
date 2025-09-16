@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+       body{
+          font-family: "Varela Round", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!--Header part of the webpage is written inside header tag.It provides semantic meaning.-->
+    <header>
+        <!--This is the main heading of the Webpage-->
+        <h1>HTML Forms Zer(0) ---> Hero</h1>
+        <!--All the navigation links are provided in the nav tag-->
+         <nav>
+            <a href="./D1Introduction.html" target="_blank">Working of Internet</a> |
+            <a href="./Day1.html" target="_blank">What is HTML?</a> |
+            <a href="./Day2.html" target="_blank">Lists & Tables</a> |
+            <a href="./Day3.html" target="_blank">File Path</a> |
+            <a href="./Day5.html" target="_blank">Media Tag</a> 
+        </nav>
+    </header>
+    <hr>
+    <!--Main tag contains the main body of the HTML Doc.-->
+    <main>
+        <!--table tag here is used to display the image and the content in the same row-->
+        <table cellpadding="30px">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="./images/formMan.png" alt="Form Image" height="300px">
+                    </td>
+
+                    <td>
+                        <h2>What is a Form ??</h2>
+                        <p>The <b>&lt;form&gt;</b> HTML element represents a document section containing interactive controls for submitting information.They incorporate a variety of interactive controls such as text fields, numeric inputs, email fields, password fields, checkboxes, radio buttons, and submit buttons.</p>
+                        <p>An <b>&lt;input&gt;</b> element can be displayed in many ways, depending on the <i><b>type</b></i> attribute.</p>
+                        <!--This Nested Table is to list the type of input element and their description-->
+                        <table style="border:none ;" cellpadding="6px">
+                           <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Description</th>
+                            </tr>
+                           </thead>
+
+                           <tbody>
+                            <tr>
+                                <td>&lt;input type="text"&gt;</td>
+                                <td>Displays a single-line text input field</td>
+                            </tr>
+
+                            <tr>
+                                <td>&lt;input type="radio"&gt;</td>
+                                <td>Displays a radio button (for selecting one of many choices)</td>
+                            </tr>
+
+                            <tr>
+                                <td>&lt;input type="checkbox"&gt;</td>
+                                <td>Displays a checkbox (for selecting zero or more of many choices)</td>
+                            </tr>
+
+                            <tr>
+                                <td>&lt;input type="submit"&gt;</td>
+                                <td>Displays a submit button (for submitting the form)</td>
+                            </tr>
+
+                            <tr>
+                                <td>&lt;input type="button"&gt;</td>
+                                <td>Displays a clickable button</td>
+                            </tr>
+                           </tbody>
+                        </table>
+                        
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table cellpadding="30px">
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Form Tags :D</h2>
+                        <ul>
+                            <li>
+                                <p> <b>&lt;form&gt; :</b> This is the container tag for all form elements. It defines the start and end of the form. </p>
+                            </li>
+                            <li>
+                                <p><b>&lt;input&gt; :</b> This is a versatile self-closing tag used for various types of user input.</p>
+                            </li>
+                            <li>
+                                <p> <b>&lt;label&gt; :</b> Provides a caption for a form element, improving accessibility and user experience. </p>
+                            </li>
+                            <li>
+                                <p><b>&lt;button&gt; :</b> Creates a clickable button. It can be used for submitting the form </p>
+                            </li>
+                            <li>
+                                <p> <b>&lt;textarea&gt; :</b> Defines a multi-line text input control, suitable for comments or longer text entries. It uses rows and cols attributes to define its size.</p>
+                            </li>
+                            <li>
+                                <p><b>&lt;select&gt; :</b> Creates a drop-down list (dropdown menu). It contains one or more &lt;option&gt; tags.</p>
+                            </li>
+                            <li>
+                                   <p><b>&lt;option&gt; :</b> Groups related options within a &lt;select&gt; drop-down list, providing a hierarchical structure.</p>
+                            </li>
+                        </ul>
+                    </td>
+
+                    <td>
+                        <img src="./images/htmltags.png" alt="HTML tags image" height="300px">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div align="center">
+            <h2>Creating a Form in HTML :)</h2>
+        </div>
+
+        <table cellpadding="50px">
+            <tbody>
+                <tr>
+                    <td>
+                        <form>
+                            <fieldset>
+                                <legend>>Student Registration Form <</legend>
+                                <p>Fill this form to register</p>
+                                <label for="fname">First Name :</label>
+                                <input type="text" id="fname" name="Fname" placeholder="Enter your first name">
+                                <br>
+                                <br>
+                                <label for="lname">Last Name :</label>
+                                <input type="text" id="lname" name="Lname" placeholder="Enter your last name">
+                                <br>
+                                <br>
+                                <label for="mail">E-mail :</label>
+                                <input type="email" id="mail" name="Mailid" placeholder="Enter your e-mail">
+                                <br>
+                                <br>
+                                 <label for="dob">Date of Birth :</label>
+                                <input type="date" id="dob" name="Date-of-Birth">
+                                <br>
+                                <br>
+                                <label for="set">Set Username :</label>
+                                <input type="text" id="set" name="Uname" placeholder="Set Username">
+                                <br>
+                                <br>
+                                <label for="pass">Set Password :</label>
+                                <input type="text" id="pass" name="Password" placeholder="Set Password">
+                                <br>
+                                <br>
+                                <label>Gender</label>
+                                <br>
+                                <input type="radio" id="male" name="gender" value="Male">
+                                <label for="male">Male</label>
+                                <br>
+                                <input type="radio" id="female" name="gender" value="Female">
+                                <label for="female">Female</label>
+                                <br>
+                                <input type="radio" id="other" name="gender" value="Others">
+                                <label for="other">Others</label>
+                                <br>
+                                <br>
+                                <label for="sel">Course</label>
+                                <select name="Course" id="sel">
+                                    <option disabled selected>Course</option>
+                                    <option value="B.tech CSE">B.Tech CSE</option>
+                                    <option value="B.tech ECE">B.Tech ECE</option>
+                                    <option value="B.tech Civil">B.Tech Civil</option>
+                                    <option value="B.tech Mechanical">B.Tech Mechanical</option>
+                                    <option value="B.tech Chemical">B.Tech Chemical</option>
+                                    <option value="B.tech Biotech">B.Tech BioTech</option>
+                                </select>
+                                <br><br>
+                                <button>Register</button>
+                            </fieldset>
+                        </form>
+                    </td>
+
+
+                    <td>
+                        <pre>
+                            <code style="font-size: 14px;">
+                                
+&lt;form&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;&gt;Student Registration Form &lt;&lt;/legend&gt;
+        &lt;p&gt;Fill this form to register&lt;/p&gt;
+
+        &lt;label for="fname"&gt;First Name :&lt;/label&gt;
+        &lt;input type="text" id="fname" name="Fname" placeholder="Enter your first name"&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+
+        &lt;label for="lname"&gt;Last Name :&lt;/label&gt;
+        &lt;input type="text" id="lname" name="Lname" placeholder="Enter your last name"&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+
+        &lt;label for="mail"&gt;E-mail :&lt;/label&gt;
+        &lt;input type="email" id="mail" name="Mailid" placeholder="Enter your e-mail"&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+
+        &lt;label for="dob"&gt;Date of Birth :&lt;/label&gt;
+        &lt;input type="date" id="dob" name="Date-of-Birth"&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+
+        &lt;label for="set"&gt;Set Username :&lt;/label&gt;
+        &lt;input type="text" id="set" name="Uname" placeholder="Set Username"&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+
+        &lt;label for="pass"&gt;Set Password :&lt;/label&gt;
+        &lt;input type="text" id="pass" name="Password" placeholder="Set Password"&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+
+        &lt;label&gt;Gender&lt;/label&gt;
+        &lt;br&gt;
+        &lt;input type="radio" id="male" name="gender" value="Male"&gt;
+        &lt;label for="male"&gt;Male&lt;/label&gt;
+        &lt;br&gt;
+
+        &lt;input type="radio" id="female" name="gender" value="Female"&gt;
+        &lt;label for="female"&gt;Female&lt;/label&gt;
+        &lt;br&gt;
+
+        &lt;input type="radio" id="other" name="gender" value="Others"&gt;
+        &lt;label for="other"&gt;Others&lt;/label&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+
+        &lt;label for="sel"&gt;Course&lt;/label&gt;
+        &lt;select name="Course" id="sel"&gt;
+            &lt;option disabled selected&gt;Course&lt;/option&gt;
+            &lt;option value="B.tech CSE"&gt;B.Tech CSE&lt;/option&gt;
+            &lt;option value="B.tech ECE"&gt;B.Tech ECE&lt;/option&gt;
+            &lt;option value="B.tech Civil"&gt;B.Tech Civil&lt;/option&gt;
+            &lt;option value="B.tech Mechanical"&gt;B.Tech Mechanical&lt;/option&gt;
+            &lt;option value="B.tech Chemical"&gt;B.Tech Chemical&lt;/option&gt;
+            &lt;option value="B.tech Biotech"&gt;B.Tech BioTech&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+
+        &lt;button&gt;Register&lt;/button&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;
+
+                            </code>
+                        </pre>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <hr>
+    <!--This is the footer section of the Webpage-->
+    <footer>
+        <p>Copyright &copy; 2025 User | All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

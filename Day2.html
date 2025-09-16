@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+       body{
+          font-family: "Varela Round", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!--Header part of the webpage is written inside header tag.It provides semantic meaning.-->
+    <header>
+        <!--This is the main heading of the Webpage-->
+        <h1>HTML Nested Lists & Tables</h1>
+        <!--All the navigation links are provided in the nav tag-->
+         <nav>
+            <a href="./D1Introduction.html" target="_blank">Working of Internet</a> |
+            <a href="./Day1.html" target="_blank">What is HTML?</a> |
+            <a href="./Day3.html" target="_blank">File Path</a> |
+            <a href="./Day4.html" target="_blank">HTML Forms</a> |
+            <a href="./Day5.html" target="_blank">Media Tag</a> 
+        </nav>
+    </header>
+    <hr>
+    <main>
+         <!--Using Table tag to display image and the content in single row-->
+        <table cellpadding="30px">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="./images/lists.png" alt="List Image" height="180px">
+                    </td>
+                    <td>
+                        <h2>What is a Nested List ? </h2>
+                        <p>A nested list in HTML is a list that contains other lists within its list items. This creates a hierarchical structure, where each sublist is indented to visually represent its relationship to the parent list item.</p>
+                        <p>Nested Lists are of two types(similar to Lists):</p>
+                        <ul>
+                           <li><b>Unordered Nested List</b></li>
+                           <li><b>Ordered Nested List</b></li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+            
+    
+        <!--This table tag is used to display the unordered nested list and its Code in the same row-->
+        <div align="center">
+             <h2>Nested Unordered List :)</h2>
+        </div>
+        <table cellpadding="20px">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 250px;">
+                        <pre>
+                            <code style="font-size:15px ;">
+                             &lt;ul&gt;
+                                 &lt;li&gt;Data Structure & Algorithms
+                                      &lt;ul&gt;
+                                         &lt;li&gt;Array &lt;/li&gt;
+                                         &lt;li&gt;Linked List &lt;/li&gt;
+                                         &lt;li&gt;Stack &lt;/li&gt;
+                                         &lt;li&gt;Queue &lt;/li&gt;
+                                      &lt;/ul&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;Web Technologies
+                                     &lt;ul&gt;
+                                        &lt;li&gt;HTML</li>
+                                        &lt;li&gt;CSS</li>
+                                        &lt;li&gt;JavaScript</li>
+                                     &lt;/ul &gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;Aptitude</li>
+                                &lt;li&gt;GATE</li>
+                                &lt;li&gt;Placement</li>
+                            &lt;/ul&gt;
+                            </code>
+                        </pre>
+                    </td>
+
+                    <td>
+                        
+                        <ul>
+                            <li>Data Structure & Algorithms
+                                <ul>
+                                    <li>Array</li>
+                                    <li>Linked List</li>
+                                    <li>Stack</li>
+                                    <li>Queue</li>
+                                </ul>
+                            </li>
+                            <li>Web Technologies
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </li>
+                            <li>Aptitude</li>
+                            <li>GATE</li>
+                            <li>Placement</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+         <!--This table tag is used to display the unordered nested list and its Code in the same row-->
+         <div align="center">
+             <h2>Nested Ordered List :)</h2>
+        </div>
+         <table>
+            <tbody>
+                <tr>
+                    <td style="padding-right: 100px;">
+                        <pre>
+                            <code style="font-size:13px">
+                    &lt;h3&gt;Computer Science Learning Path&lt;/h3&gt;
+                     &lt;ol>
+                        &lt;li&gt;&lt;h4&gt;Foundational Concepts? &lt;/h4&gt; &lt;/li&gt;
+                          &lt;p&gt;Start with the absolute basics that underpin everything else.</p>
+                        &lt;li&gt; &lt;h4&gt;Core Computer Science &lt;/h4&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;Algorithms and Data Structures &lt;/li&gt;
+                                &lt;li&gt;Database Systems &lt;/li&gt;
+                                &lt;li&gt; &lt;h3&gt;Web Development &lt;/h3&gt;
+                                     &lt;ol&gt;
+                                        &lt;li&gt;HTML Fundamentals &lt;/li&gt;
+                                        &lt;li&gt;CSS Styling &lt;/li&gt;
+                                        &lt;li&gt; &lt;h4&gt;JavaScript Fundamentals &lt;/h4&gt;
+                                            &lt;ul&gt;
+                                                &lt;li&gt;Variables and Data Types &lt;/li&gt;
+                                                &lt;li&gt;Functions &lt;/li&gt;
+                                                &lt;li&gt;Conditional Logic(if/else) &lt;/li&gt;
+                                                &lt;li&gt;Loops(for/while) &lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                     &lt;/ol&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;Operating Systems &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt; &lt;h4&gt;Specialization &lt;/h4&gt; &lt;/li&gt;
+                     &lt;/ol&gt;
+                              </code>
+                            </pre>
+                        </td>
+
+                    <td>
+                        <h3>Computer Science Learning Path</h3>
+                        <ol>
+                           <li><h4>Foundational Concepts</h4></li>
+                             <p>Start with the absolute basics that underpin everything else.</p>
+                           <li><h4>Core Computer Science</h4>
+                              <ul>
+                                  <li>Algorithms and Data Structures</li>
+                                  <li>Database Systems</li>
+                                  <li><h3>Web Development</h3>
+                                      <ol>
+                                         <li>HTML Fundamentals</li>
+                                         <li>CSS Styling</li>
+                                         <li><h4>JavaScript Fundamentals</h4>
+                              <ul>
+                                  <li>Variables and Data Types</li>
+                                  <li>Functions</li>
+                                  <li>Conditional Logic(if/else)</li>
+                                  <li>Loops(for/while)</li>
+                              </ul>
+                            </li>
+                        </ol>
+                           </li>
+                           <li>Operating Systems</li>
+                             </ul>
+                           </li>
+                            <li><h4>Specialization</h4></li>
+                         </ol>
+                    </td>
+                </tr>
+            </tbody>
+         </table>
+
+         <table cellpadding="30px">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="./images/htmltags.png" alt="HTML Tags Image" height="300px">
+                    </td>
+
+                    <td>
+                        <h2>What is a Table??</h2>
+                        <p>The <b>&lt;table&gt;</b> HTML element represents tabular data—that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.</p>
+
+                        <h3>Table Tags :)</h3>
+                        <ul>
+                            <li>&lt;table&gt;</li>
+                            <li>&lt;thead&gt;  , &lt;tbody&gt; , &lt;tfoot&gt;</li>
+                            <li>&lt;tr&gt;</li>
+                            <li>&lt;td&gt; , &lt;th&gt; </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+         </table>
+
+         <div align="center">
+            <h2>TABLE :)</h2>
+         </div>
+
+         <table cellpadding="30px">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 180px;">
+                        <pre>
+                            <code style="font-size: 14px;">
+                         &lt;table border="1" cellpadding="5px"&gt;
+                           &lt;thead&gt;
+                            &lt;tr&gt;
+                               &lt;th&gt;Name&lt;/th&gt;
+                               &lt;th&gt;Job Title&lt;/th&gt;
+                               &lt;th&gt;Email Address&lt;/th&gt;
+                            &lt;/tr&gt;
+                           &lt;/thead&gt;
+                           &lt;tbody&gt;
+                            &lt;tr&gt;
+                               &lt;td&gt;Anna Fernendiz&lt;/td&gt;
+                               &lt;td&gt;Data Scientist&lt;/td&gt;
+                               &lt;td&gt;Anna23@gmail.com&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                               &lt;td&gt;John Smith&gt;/td&gt;
+                               &lt;td&gt;CEO&lt;/td&gt;
+                               &lt;td&gt;Johnsmith@gmail.com&gt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                               &lt;td&gt;Ryan Cooper&lt;/td&gt;
+                               &lt;td&gt;Staff Engineer&lt;/td&gt;
+                               &lt;td&gt;Ryan65@gmail.com&lt;/td&gt;
+                            &lt;/tr&gt;
+                           &lt;/tbody&gt;
+                        &lt;/table&gt;
+
+                            </code>
+                        </pre>
+                    </td>
+
+
+                    <td>
+                        <table border="1" cellpadding="5px">
+                           <thead>
+                            <tr>
+                               <th>Name</th>
+                               <th>Job Title</th>
+                               <th>Email Address</th>
+                            </tr>
+                           </thead>
+                           <tbody>
+                            <tr>
+                               <td>Anna Fernendiz</td>
+                               <td>Data Scientist</td>
+                               <td>Anna23@gmail.com</td>
+                            </tr>
+                            <tr>
+                               <td>John Smith</td>
+                               <td>CEO</td>
+                               <td>Johnsmith@gmail.com</td>
+                            </tr>
+                            <tr>
+                               <td>Ryan Cooper</td>
+                               <td>Staff Engineer</td>
+                               <td>Ryan65@gmail.com</td>
+                            </tr>
+                           </tbody>
+                        </table>
+                  </td>
+                </tr>
+            </tbody>
+         </table>
+
+         <!--This table is to create Nested Table in HTML-->
+         <div align="center">
+            <h2> NESTED TABLE :)</h2>
+         </div>
+         <table cellpadding="30px">
+            <tbody>
+                <tr>
+                    <td style="padding-right: 180px;">
+                        <pre>
+                            <code style="font-size:14px ;">
+                        &lt;table border="1" cellpadding="5px"&gt;
+                        &lt;caption&gt;Nested Table&lt;/caption&gt;
+                          &lt;tbody&gt;
+                            &lt;tr&gt;
+                               &lt;td&gt;Table 1&lt;/td&gt;
+                               &lt;td&gt;
+                                  &lt;table border="1" cellpadding="5px"&gt;
+                                  &lt;caption&gt;Table 1&lt;/caption&gt;
+                                    &lt;tbody&gt;
+                                      &lt;tr&gt;
+                                        &lt;td&gt;Table 2&lt;/td&gt;
+                                        &lt;td&gt;Table 2&lt;/td&gt;
+                                      &lt;/tr&gt;
+                                      &lt;tr&gt;
+                                        &lt;td&gt;Table 2&lt;/td&gt;
+                                        &lt;td&gt;Table 2&lt;/td&gt;
+                                      &lt;/tr&gt;
+                                    &lt;/tbody&gt;
+                                   &lt;/table&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                               &lt;td&gt;Table 1&lt;/td&gt;
+                               &lt;td&gt;Table 1&lt;/td&gt;
+                            &lt;/tr&gt;
+                          &lt;/tbody&gt;
+                        &lt;/table&gt;
+
+                            </code>
+                        </pre>
+                    </td>
+
+                    <td>
+                        <table border="1" cellpadding="5px">
+                        <caption>Nested Table</caption>
+                          <tbody>
+                            <tr>
+                               <td>Table 1</td>
+                               <td>
+                                  <table border="1" cellpadding="5px">
+                                  <caption>Table 1</caption>
+                                    <tbody>
+                                      <tr>
+                                        <td>Table 2</td>
+                                        <td>Table 2</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Table 2</td>
+                                        <td>Table 2</td>
+                                      </tr>
+                                    </tbody>
+                                   </table>
+                                </td>
+                            </tr>
+                            <tr>
+                               <td>Table 1</td>
+                               <td>Table 1</td>
+                            </tr>
+                          </tbody>
+                        </table>
+    
+                    </td>
+                </tr>
+            </tbody>
+         </table>
+    </main>
+
+    <hr>
+    <!--This is the footer section of the Webpage-->
+    <footer>
+        <p>Copyright &copy; 2025 User | All rights reserved.</p>
+    </footer>
+</body>
+</html>
